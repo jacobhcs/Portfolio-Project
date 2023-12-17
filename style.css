@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: rgba(255, 254, 246, 1) !important;
+  overflow: hidden;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 0%;
+}
+
+.icon img {
+  height: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  padding: 1% 18%;
+}
+
+.logo {
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, .15);
+  font-size: 60px;
+}
+
+#name {
+  font-style: italic;
+}
+
+#nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 100%;
+  margin-bottom: 0rem;
+  font-size: 18px;
+}
+
+ul {
+  padding: 0 !important;
+}
+
+li>a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.opening {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+
+.opening-left,
+.opening-right {
+  /* flex: 2; */
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.space {
+  flex: 1;
+  height: 50%;
+  width: 50%;
+}
+
+.space-two {
+  flex: 1.5;
+  height: 70%;
+  width: 70%;
+}
+
+#opening-sentence {
+  text-align: center;
+  font-size: 22px;
+  margin: 2%;
+  margin-bottom: 15%;
+}
+
+#blue {
+  color: #5D84A9;
+}
+
+#green {
+  color: #6D9E8F;
+}
+
+#brown {
+  color: #A35205;
+}
+
+#experience {
+  text-align: center;
+  font-size: 22px;
+}
+
+#experience-container {
+  margin: 20% 0%auto !important;
+}
+
+.row img {
+  height: 100px;
+  width: auto;
+}
+
+#css-logo {
+  height: 124px;
+  width: auto;
+}
+
+#op2 {
+  margin: 15% 0;
+}
+
+#cd-logo {
+  margin-bottom: 10px;
+}
+
+.grey {
+  color: rgb(157, 157, 157);
+}
+
+#footer {
+  background-color: rgb(140, 156, 146);
+  height: 20vh;
+}
+
+#footer h1 {
+  color: white;
+}
+
+.social-logos>img {
+  height: 25px;
+  width: auto;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  cursor: pointer;
+}
+
+.social-logos {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+}
+
+.hidden {
+  opacity: 0;
+  /* filter: blur(5px); */
+  /* transform: translateX(-100%); */
+  transition: all 2.5s;
+}
+
+.show {
+  opacity: 1;
+}
+
+@media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
