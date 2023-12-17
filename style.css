@@ -9,14 +9,13 @@
 
 body {
   background-color: rgba(255, 254, 246, 1) !important;
-  overflow: hidden;
 }
 
 .icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2% 0%;
+  margin: 2%;
 }
 
 .icon img {
@@ -53,10 +52,6 @@ nav {
   font-size: 18px;
 }
 
-ul {
-  padding: 0 !important;
-}
-
 li>a {
   text-decoration: none;
   color: black;
@@ -66,12 +61,11 @@ li>a {
 .opening {
   display: flex;
   align-items: center;
-  gap: 2%;
 }
 
 .opening-left,
 .opening-right {
-  /* flex: 2; */
+  flex: 2;
   text-align: center;
   height: 100%;
   width: 100%;
@@ -92,7 +86,7 @@ li>a {
 #opening-sentence {
   text-align: center;
   font-size: 22px;
-  margin: 2%;
+  margin: 5% 0;
   margin-bottom: 15%;
 }
 
@@ -111,10 +105,11 @@ li>a {
 #experience {
   text-align: center;
   font-size: 22px;
+  margin-bottom: 5%;
 }
 
 #experience-container {
-  margin: 20% 0%auto !important;
+  margin: 40% 0%auto !important;
 }
 
 .row img {
